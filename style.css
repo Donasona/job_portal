@@ -1,0 +1,44 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.trans{
+        transition:  transform 0.5s linear;
+}
+.trans:hover{
+         transform: scale(1.2);
+}
+/* sign-in */
+footer{
+    color:#f4e6d6;
+    background-color: #103cbe;
+   }
+   .login{
+    background-color: blue;
+    color: #f4e6d6;
+   }
+.login:hover{
+    background-color: #103cbe;
+    color:white;
+}
+/* sign-in */
+
+/* login */
+.box-area{
+    width: 1050px;
+    /* width: 980px; */
+    margin: 0 10px;
+}
+
+
+/* right box  */
+.right-box{
+    padding: 40px 30px 40px 40px;
+}
+
+::placeholder{
+    font-size: 16px;
+}
+
