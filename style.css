@@ -42,3 +42,35 @@ footer{
     font-size: 16px;
 }
 
+/* container */
+.main{
+    background: url(./image/bg2.jpg)no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    /* padding: 100px 20px; */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* job  */
+ .job-card {
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      border: none;
+    }
+
+        .card-img-top {
+      width: 40px;
+      height: 40px;
+      object-fit: contain;
+    }
+.job-tag {
+      background: #f1f1f1;
+      border-radius: 5px;
+      padding: 4px 10px;
+      font-size: 14px;
+      margin-right: 5px;
+      display: inline-block;
+      margin-bottom: 5px;
+    }
