@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+            <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <!-- nav bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
+  <div class="container-fluid">
+        <img src="./image/logo1.png" alt="" style="width: 60px; margin-left: 10px;">
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+      <ul class="navbar-nav " style="font-weight: 500;">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">HOME</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">ABOUT</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            JOBS
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Job List</a></li>
+            <li><a class="dropdown-item" href="#">Job Details</a></li>
+          </ul>
+        </li>
+       <li class="nav-item " style="margin-right: 10px;">
+          <a class="nav-link active" aria-current="page" href="#">CONTACT</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <a class="nav-link active text-light bg-primary" aria-current="page" href="#" style="width: 120px;height:50px; display: flex;justify-content: center; align-items: center;font-weight: bold;">Post A Job <span style="margin-left: 10px;"><i class="fa-solid fa-arrow-right"></i></span></a>
+      </form>
+    </div>
+  </div>
+</nav>
+<!-- container -->
+  <section class="main">
+    <div class="container">
+      <h1 class="fw-bold display-5 text-center">Don't Wait for Opportunity.Create It.</h1>
+      <p class="text-center">Find jobs,create trackable resumes and enrich your applications.</p>
+
+      <div class="search-bar d-flex flex-column flex-md-row gap-2">
+        <input type="text" class="form-control" placeholder="Keywords" />
+        <input type="text" class="form-control" placeholder="Location" /></div>
+        <button class="btn btn-primary w-100 mt-2">Search</button>
+      <!-- </div> -->
+    </div>
+  </section>
+  <!-- job  -->
+<div class="container py-5">
+  <h3 class="text-center mb-4">Latest Jobs</h3>
+  <div class="row g-4">
+    
+    <div class="col-md-6 col-lg-4">
+      <div class="skill-card card job-card p-3">
+        <div class="d-flex align-items-center mb-2">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" class="card-img-top me-2 " alt="logo" />
+          <div>
+            <strong>IT Infosys Co.</strong><br/>
+            <small class="text-muted">2 days ago</small>
+          </div>
+        </div>
+        <h5>Senior Web Developer</h5>
+        <p class="text-muted mb-1"><i class="fa-solid fa-location-dot"></i> Kochi, India</p>
+        <div class="job-tag">₹ 10k - 25k</div>
+        <div class="job-tag">part-time</div>
+        <div class="job-tag">day shift</div>
+        <div class="d-flex justify-content-between align-items-center mt-3">
+          <a href="#" class="btn btn-primary btn-sm">View Details</a>
+          <button class="btn border rounded-circle"><i class="bi bi-heart"></i></button>
+        </div>
+      </div>
+    </div>
+
+<div class="col-md-6 col-lg-4">
+  <div class="skill-card card job-card p-3">
+    <div class="d-flex align-items-center mb-2">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" class="card-img-top me-2" alt="logo" />
+      <div>
+        <strong>All Media Ltd</strong><br/>
+        <small class="text-muted">2 days ago</small>
+      </div>
+    </div>
+    <h5>Qualified Developer</h5>
+    <p class="text-muted mb-1"><i class="fa-solid fa-location-dot"></i>  Mumbai, India </p>
+    <div class="job-tag">₹ 9000</div>
+    <div class="job-tag">full-time</div>
+    <div class="job-tag">flexible shifts</div>
+    <div class="d-flex justify-content-between align-items-center mt-3">
+      <a href="#" class="btn btn-primary btn-sm">View Details</a>
+      <button class="btn border rounded-circle"><i class="bi bi-heart"></i></button>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-6 col-lg-4">
+  <div class="skill-card card job-card p-3">
+    <div class="d-flex align-items-center mb-2">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" class="card-img-top me-2" alt="logo" />
+      <div>
+        <strong>Software Solutions</strong><br/>
+        <small class="text-muted">Posted today</small>
+      </div>
+    </div>
+    <h5>Javascript Developer</h5>
+    <p class="text-muted mb-1"><i class="fa-solid fa-location-dot"></i> Hyderabad, India</p>
+    <div class="job-tag">₹ 10k - 25k</div>
+    <div class="job-tag">internship</div>
+    <div class="job-tag">night shift</div>
+    <div class="d-flex justify-content-between align-items-center mt-3">
+      <a href="#" class="btn btn-primary btn-sm">View Details</a>
+      <button class="btn border rounded-circle"><i class="bi bi-heart"></i></button>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-6 col-lg-4">
+  <div class="skill-card card job-card p-3">
+    <div class="d-flex align-items-center mb-2">
+      <img src="https://sass-lang.com/assets/img/logos/logo.svg" class="card-img-top me-2" alt="Sass Logo" style="width: 40px;" />
+      <div>
+        <strong>IT World</strong><br/>
+        <small class="text-muted">19 days ago</small>
+      </div>
+    </div>
+    <h5>Junior Front-End</h5>
+    <p class="text-muted mb-1"><i class="fa-solid fa-location-dot"></i> Mumbai, India</p>
+    <div class="job-tag">₹ 20k - 50k</div>
+    <div class="job-tag">contract</div>
+    <div class="job-tag">fixed shift</div>
+    <div class="d-flex justify-content-between align-items-center mt-3">
+      <a href="#" class="btn btn-primary btn-sm">View Details</a>
+      <button class="btn border rounded-circle"><i class="bi bi-heart"></i></button>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-6 col-lg-4">
+  <div class="skill-card card job-card p-3">
+    <div class="d-flex align-items-center mb-2">
+      <img src="https://cdn-icons-png.flaticon.com/512/5968/5968520.png" class="card-img-top me-2" alt="Pixxel Arts Logo" style="width: 40px;" />
+      <div>
+        <strong>Pixxel Arts</strong><br/>
+        <small class="text-muted">3 days ago</small>
+      </div>
+    </div>
+    <h5>Graphic Designer</h5>
+    <p class="text-muted mb-1"><i class="fa-solid fa-location-dot"></i> Kochi, India</p>
+    <div class="job-tag">₹ 18,000</div>
+    <div class="job-tag">full-time</div>
+    <div class="job-tag">morning shift</div>
+    <div class="d-flex justify-content-between align-items-center mt-3">
+      <a href="#" class="btn btn-primary btn-sm">View Details</a>
+      <button class="btn border rounded-circle"><i class="bi bi-heart"></i></button>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-6 col-lg-4">
+  <div class="skill-card card job-card p-3">
+    <div class="d-flex align-items-center mb-2">
+      <img src="https://cdn-icons-png.flaticon.com/512/3208/3208707.png" class="card-img-top me-2" alt="Support Desk Logo" style="width: 40px;" />
+      <div>
+        <strong>Support Desk</strong><br/>
+        <small class="text-muted">4 days ago</small>
+      </div>
+    </div>
+    <h5>Customer Support Executive</h5>
+    <p class="text-muted mb-1"><i class="fa-solid fa-location-dot"></i> Bengaluru, India</p>
+    <div class="job-tag">₹ 22,000</div>
+    <div class="job-tag">full-time</div>
+    <div class="job-tag">rotational shift</div>
+    <div class="d-flex justify-content-between align-items-center mt-3">
+      <a href="#" class="btn btn-primary btn-sm">View Details</a>
+      <button class="btn border rounded-circle"><i class="bi bi-heart"></i></button>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+
+
+
+
+<!-- footer -->
+ 
+ <footer class="py-5" style="background-color: rgb(225, 220, 220);">
+  <div class="container">
+    <div class="row text-center text-md-start text-dark">
+      <div class="col-md-3 mb-4">
+        <h5 class="fw-bold mb-3">
+          <img src="./image/logo1.png" alt="Logo" width="30"> Jobentryx
+        </h5>
+        <p class="small">
+          Find the right jpb that matches your skills and passion. Let your career take off with the right start.
+        </p>
+        <div class="d-flex">
+          <a href="#" class="text-dark me-3"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="text-dark me-3"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="text-dark"><i class="bi bi-twitter"></i></a>
+        </div>
+      </div>
+
+ 
+      <div class="col-md-3 mb-4">
+        <h6 class="fw-bold">Quick Links</h6>
+        <ul class="list-unstyled">
+          <li><i class="bi bi-chevron-right"></i> home</li>
+          <li><i class="bi bi-chevron-right"></i> filter search</li>
+          <li><i class="bi bi-chevron-right"></i> all jobs</li>
+          <li><i class="bi bi-chevron-right"></i> about us</li>
+          <li><i class="bi bi-chevron-right"></i> contact us</li>
+        </ul>
+      </div>
+
+      <div class="col-md-3 mb-4">
+        <h6 class="fw-bold">Extra Links</h6>
+        <ul class="list-unstyled">
+          <li><i class="bi bi-chevron-right"></i> account</li>
+          <li><i class="bi bi-chevron-right"></i> login</li>
+          <li><i class="bi bi-chevron-right"></i> register</li>
+          <li><i class="bi bi-chevron-right"></i> post job</li>
+          <li><i class="bi bi-chevron-right"></i> dashboard</li>
+        </ul>
+      </div>
+
+      <div class="col-md-3 mb-4">
+        <h6 class="fw-bold">Follow Us</h6>
+        <ul class="list-unstyled">
+          <li><i class="bi bi-facebook"></i> facebook</li>
+          <li><i class="bi bi-twitter"></i> twitter</li>
+          <li><i class="bi bi-instagram"></i> instagram</li>
+          <li><i class="bi bi-linkedin"></i> linkedin</li>
+          <li><i class="bi bi-youtube"></i> youtube</li>
+        </ul>
+      </div>
+    </div>
+
+     <div class="d-flex justify-content-between mt-4 pt-3 border-top border">
+      <p class="mb-0 small text-dark">© 2025 Jobentryx. All rights reserved.</p>
+      <div class="small">
+        <a href="#" class="text-dark text-decoration-none me-3">Privacy</a>
+        <a href="#" class="text-dark text-decoration-none me-3">Terms</a>
+        <a href="#" class="text-dark text-decoration-none">Sitemap</a>
+      </div>
+    </div>
+
+
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+    
+    
+</body>
+</html>

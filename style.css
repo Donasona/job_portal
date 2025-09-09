@@ -46,6 +46,7 @@ footer{
 .main{
     background: url(./image/bg2.jpg)no-repeat center center;
     background-size: cover;
+    background-attachment: fixed;
     text-align: center;
     color: white;
     /* padding: 100px 20px; */
@@ -74,3 +75,16 @@ footer{
       display: inline-block;
       margin-bottom: 5px;
     }
+
+.skill-card {
+    background: white;
+    border: 1px solid rgba(72, 207, 203, 0.3);
+    border-radius: 10px;
+    padding: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 30px rgba(72, 207, 203, 0.5);
+}
